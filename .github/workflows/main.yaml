@@ -9,8 +9,8 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
     - name: Step 1
-    run: echo hello world 
+      run: echo hello world 
     - name: Step 2
-    run: echo Hi there
+      run: echo Hi there
     - name: Step 3
-    run: echo Today is $(date)
+      run: echo Today is $(date)

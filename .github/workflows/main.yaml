@@ -5,7 +5,7 @@ on:
     - main
 
 jobs: 
-  check-hello_and_name:
+  check_hello_and_name:
     runs-on: ubuntu-24.04
     steps:
     - name: Step 1
